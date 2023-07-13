@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": ["./components/*"],
+      "navigators/*": ["./navigators/*"],
+      "screens/*": ["./screens/*"],
+      "styles/*": ["./styles/*"],
+      "utils/*": ["./utils/*"],
+      "assets": ["./assets/*"],
+      "hooks": ["./hooks/*"]
+    },
+    /* Completeness */
+    "skipLibCheck": true,
+    "lib": ["ES2021"]
+  }
+}
